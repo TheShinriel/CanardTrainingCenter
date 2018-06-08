@@ -1,0 +1,45 @@
+author="Shinirel & canards";
+OnLoadName = "Centre de Production de Canards";
+OnLoadMission = "Si tu sais pas faire, apprends ou meurs !";
+loadScreen = "images\cpc256.paa";
+enableDebugConsole = 2;
+class Header
+{
+    gameType = Sandbox;
+    minPlayers = 1;
+    maxPlayers = 32;
+};
+
+respawn = 3;
+respawnDelay = 4;
+respawnDialog = 0;
+respawnOnStart = 1;
+disabledAI = 1;
+joinUnassigned = 1;
+
+
+class CfgFunctions
+{
+	class GDC2
+	{
+		class lucySpawn
+		{
+			file = "functions\gdc_lucy\spawn";
+			class lucySpawnStaticInf {};
+		};
+		class lucyUtilities
+		{
+			file = "functions\gdc_lucy\utilities";
+			class lucyPrepareSpawnStatic {};
+			class lucySetReference {};
+		};
+	};
+	
+	class Shin
+	{
+		class cqb
+		{
+			class cqbInit {};
+		};
+	};
+};
