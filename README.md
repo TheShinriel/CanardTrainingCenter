@@ -11,3 +11,9 @@ Nom possible
 For texture
 https://forums.bohemia.net/forums/topic/180646-list-of-all-hidden-texture-inits/
 a3\editorpreviews_f\data\cfgvehicles\default\ship.jpg
+a3\editorpreviews_f\data\cfgvehicles\default\ship.jpg
+
+
+a3\editorpreviews_f\data\cfgvehicles\default\Man.jpg
+a3\editorpreviews_f\data\cfgvehicles\default\Plane.jpg
+

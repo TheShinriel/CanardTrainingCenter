@@ -41,5 +41,9 @@ class CfgFunctions
 		{
 			class cqbInit {};
 		};
+		class medical
+		{
+			class createInjury {};
+		};
 	};
 };
