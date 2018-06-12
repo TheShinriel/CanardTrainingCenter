@@ -12,14 +12,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=91;
+		nextID=107;
 	};
 	class Camera
 	{
-		pos[]={2468.4639,8.2994967,2376.1924};
-		dir[]={0.50849879,-0.43965265,0.74043828};
-		up[]={0.24894656,0.89811361,0.36249751};
-		aside[]={0.82437861,2.2401218e-007,-0.56614375};
+		pos[]={1735.96,5.9687333,2374.7175};
+		dir[]={0.64522779,-0.65354884,0.39583191};
+		up[]={0.55712783,0.75681585,0.34178519};
+		aside[]={0.5229556,-7.6826836e-008,-0.8524434};
 	};
 };
 binarizationWanted=0;
@@ -7309,7 +7309,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{this addAction [""<t color='#00ff00'>Réinitialiser la caméra</t>"", { snipe_ecran_1 setObjectTexture [0,'#(argb,256,256,1)r2t(snipe_cam1_rtt,1.0)']; },"""",6,false,true,"""",""(_target distance _this) < 6""];}";
+						init="call{this addAction [""<t color='#00ff00'>Réinitialiser la caméra</t>"", {" \n "snipe_ecran_1 setObjectTexture [0,''];" \n "sleep 1;" \n "snipe_ecran_1 setObjectTexture [0,'#(argb,256,256,1)r2t(snipe_cam1_rtt,1.0)']; },"""",6,false,true,"""",""(_target distance _this) < 6""];}";
 					};
 					id=354;
 					type="Land_InfoStand_V2_F";
@@ -7349,11 +7349,10 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{this addAction [""<t color='#00ff00'>Réinitialiser la caméra</t>"", { snipe_ecran_2 setObjectTexture [0,'#(argb,256,256,1)r2t(snipe_cam2_rtt,1.0)']; },"""",6,false,true,"""",""(_target distance _this) < 6""];}";
+						init="call{this addAction [""<t color='#00ff00'>Réinitialiser la caméra</t>"", {" \n "snipe_ecran_2 setObjectTexture [0,''];" \n "sleep 1;" \n "snipe_ecran_2 setObjectTexture [0,'#(argb,256,256,1)r2t(snipe_cam2_rtt,1.0)']; },"""",6,false,true,"""",""(_target distance _this) < 6""];;}";
 					};
 					id=355;
 					type="Land_InfoStand_V2_F";
-					atlOffset=1.1920929e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7390,11 +7389,10 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{this addAction [""<t color='#00ff00'>Réinitialiser la caméra</t>"", { snipe_ecran_3 setObjectTexture [0,'#(argb,256,256,1)r2t(snipe_cam3_rtt,1.0)']; },"""",6,false,true,"""",""(_target distance _this) < 6""];}";
+						init="call{this addAction [""<t color='#00ff00'>Réinitialiser la caméra</t>"", {" \n "snipe_ecran_3 setObjectTexture [0,''];" \n "sleep 1;" \n "snipe_ecran_3 setObjectTexture [0,'#(argb,256,256,1)r2t(snipe_cam3_rtt,1.0)']; },"""",6,false,true,"""",""(_target distance _this) < 6""];}";
 					};
 					id=356;
 					type="Land_InfoStand_V2_F";
-					atlOffset=-1.1920929e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7431,11 +7429,10 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{this addAction [""<t color='#00ff00'>Réinitialiser la caméra</t>"", { snipe_ecran_4 setObjectTexture [0,'#(argb,256,256,1)r2t(snipe_cam4_rtt,1.0)']; },"""",6,false,true,"""",""(_target distance _this) < 6""];}";
+						init="call{this addAction [""<t color='#00ff00'>Réinitialiser la caméra</t>"", {" \n "snipe_ecran_4 setObjectTexture [0,''];" \n "sleep 1;" \n "snipe_ecran_4 setObjectTexture [0,'#(argb,256,256,1)r2t(snipe_cam4_rtt,1.0)']; },"""",6,false,true,"""",""(_target distance _this) < 6""];}";
 					};
 					id=357;
 					type="Land_InfoStand_V2_F";
-					atlOffset=-1.1920929e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7472,11 +7469,10 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{this addAction [""<t color='#00ff00'>Réinitialiser la caméra</t>"", { snipe_ecran_5 setObjectTexture [0,'#(argb,256,256,1)r2t(snipe_cam5_rtt,1.0)']; },"""",6,false,true,"""",""(_target distance _this) < 6""];}";
+						init="call{this addAction [""<t color='#00ff00'>Réinitialiser la caméra</t>"", {" \n "snipe_ecran_5 setObjectTexture [0,''];" \n "sleep 1;" \n "snipe_ecran_5 setObjectTexture [0,'#(argb,256,256,1)r2t(snipe_cam5_rtt,1.0)']; },"""",6,false,true,"""",""(_target distance _this) < 6""];}";
 					};
 					id=358;
 					type="Land_InfoStand_V2_F";
-					atlOffset=-1.1920929e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -8708,7 +8704,7 @@ class Mission
 					};
 					id=833;
 					type="Land_VR_Block_01_F";
-					atlOffset=22.831339;
+					atlOffset=22.831341;
 				};
 				class Item6
 				{
