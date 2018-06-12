@@ -5,21 +5,21 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=129;
+	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=865;
+		nextID=867;
 	};
 	class LayerIndexProvider
 	{
-		nextID=123;
+		nextID=139;
 	};
 	class Camera
 	{
-		pos[]={1735.9999,5.07724,2373.5642};
-		dir[]={0.77554756,-0.40654144,0.4831019};
-		up[]={0.34515932,0.9135738,0.21500619};
-		aside[]={0.52876842,3.9314182e-007,-0.84885597};
+		pos[]={1733.5225,24.872177,2356.9866};
+		dir[]={-0.047060292,-0.66425419,0.74612004};
+		up[]={-0.041817959,0.74743652,0.66299874};
+		aside[]={0.99809492,4.5947672e-008,0.062954009};
 	};
 };
 binarizationWanted=0;
@@ -348,7 +348,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=98;
+		items=99;
 		class Item0
 		{
 			dataType="Object";
@@ -4536,11 +4536,12 @@ class Mission
 		class Item74
 		{
 			dataType="Marker";
-			position[]={1734.8783,2.0289021,2369.5259};
-			name="marker_3";
+			position[]={1733.714,2.0439999,2372.0491};
+			name="marker_snipe";
 			text="Snipe";
 			type="mil_warning";
 			id=281;
+			atlOffset=0.00038480759;
 		};
 		class Item75
 		{
@@ -7309,7 +7310,6 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{this addAction [""<t color='#00ff00'>Réinitialiser la caméra</t>"", {" \n "" \n "snipe_cam1 cameraEffect [""Internal"", ""Back"", ""snipe_cam1_rtt""];" \n "snipe_cam2 cameraEffect [""Internal"", ""Back"", ""snipe_cam2_rtt""];" \n "snipe_cam3 cameraEffect [""Internal"", ""Back"", ""snipe_cam3_rtt""];" \n "snipe_cam4 cameraEffect [""Internal"", ""Back"", ""snipe_cam4_rtt""];" \n "snipe_cam5 cameraEffect [""Internal"", ""Back"", ""snipe_cam5_rtt""];" \n "" \n "},"""",6,false,true,"""",""(_target distance _this) < 6""];}";
 					};
 					id=354;
 					type="Land_InfoStand_V2_F";
@@ -7349,10 +7349,10 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{this addAction [""<t color='#00ff00'>Réinitialiser la caméra</t>"", {" \n "" \n "snipe_cam1 cameraEffect [""Internal"", ""Back"", ""snipe_cam1_rtt""];" \n "snipe_cam2 cameraEffect [""Internal"", ""Back"", ""snipe_cam2_rtt""];" \n "snipe_cam3 cameraEffect [""Internal"", ""Back"", ""snipe_cam3_rtt""];" \n "snipe_cam4 cameraEffect [""Internal"", ""Back"", ""snipe_cam4_rtt""];" \n "snipe_cam5 cameraEffect [""Internal"", ""Back"", ""snipe_cam5_rtt""];" \n "" \n "},"""",6,false,true,"""",""(_target distance _this) < 6""];}";
 					};
 					id=355;
 					type="Land_InfoStand_V2_F";
+					atlOffset=1.1920929e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7389,10 +7389,10 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{this addAction [""<t color='#00ff00'>Réinitialiser la caméra</t>"", {" \n "" \n "snipe_cam1 cameraEffect [""Internal"", ""Back"", ""snipe_cam1_rtt""];" \n "snipe_cam2 cameraEffect [""Internal"", ""Back"", ""snipe_cam2_rtt""];" \n "snipe_cam3 cameraEffect [""Internal"", ""Back"", ""snipe_cam3_rtt""];" \n "snipe_cam4 cameraEffect [""Internal"", ""Back"", ""snipe_cam4_rtt""];" \n "snipe_cam5 cameraEffect [""Internal"", ""Back"", ""snipe_cam5_rtt""];" \n "" \n "},"""",6,false,true,"""",""(_target distance _this) < 6""];}";
 					};
 					id=356;
 					type="Land_InfoStand_V2_F";
+					atlOffset=-1.1920929e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7429,10 +7429,10 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{this addAction [""<t color='#00ff00'>Réinitialiser la caméra</t>"", {" \n "" \n "snipe_cam1 cameraEffect [""Internal"", ""Back"", ""snipe_cam1_rtt""];" \n "snipe_cam2 cameraEffect [""Internal"", ""Back"", ""snipe_cam2_rtt""];" \n "snipe_cam3 cameraEffect [""Internal"", ""Back"", ""snipe_cam3_rtt""];" \n "snipe_cam4 cameraEffect [""Internal"", ""Back"", ""snipe_cam4_rtt""];" \n "snipe_cam5 cameraEffect [""Internal"", ""Back"", ""snipe_cam5_rtt""];" \n "" \n "},"""",6,false,true,"""",""(_target distance _this) < 6""];}";
 					};
 					id=357;
 					type="Land_InfoStand_V2_F";
+					atlOffset=-1.1920929e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7469,10 +7469,10 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="call{this addAction [""<t color='#00ff00'>Réinitialiser la caméra</t>"", {" \n "" \n "snipe_cam1 cameraEffect [""Internal"", ""Back"", ""snipe_cam1_rtt""];" \n "snipe_cam2 cameraEffect [""Internal"", ""Back"", ""snipe_cam2_rtt""];" \n "snipe_cam3 cameraEffect [""Internal"", ""Back"", ""snipe_cam3_rtt""];" \n "snipe_cam4 cameraEffect [""Internal"", ""Back"", ""snipe_cam4_rtt""];" \n "snipe_cam5 cameraEffect [""Internal"", ""Back"", ""snipe_cam5_rtt""];" \n "" \n "},"""",6,false,true,"""",""(_target distance _this) < 6""];}";
 					};
 					id=358;
 					type="Land_InfoStand_V2_F";
+					atlOffset=-1.1920929e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -9253,6 +9253,35 @@ class Mission
 			{
 			};
 			id=863;
+		};
+		class Item98
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1732.3542,2.0747807,2368.4651};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						isPlayer=1;
+					};
+					id=866;
+					type="B_soldier_AR_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=865;
 		};
 	};
 };
