@@ -13,7 +13,7 @@
 // source: https://github.com/acemod/ACE3/issues/2816#issuecomment-154545470
 params [
 	"_target", 
-	["_Size", 0.2 + random 0.6], 
+	["_Size", 0.2 + random 0.4], 
 	["_bodypart", ["head", "body", "hand_l", "hand_r", "leg_l", "leg_r"] call BIS_fnc_selectRandom], 
 	["_WoundType", ["bullet", "grenade", "explosive", "shell", "vehiclecrash", "backblast", "stab", "punch", "falling", "unknown"] call BIS_fnc_selectRandom]
 ];

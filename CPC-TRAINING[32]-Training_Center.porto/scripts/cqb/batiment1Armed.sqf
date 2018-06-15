@@ -7,5 +7,4 @@ _positions = [
 	[2.66016,5.06445,0.855064,357.659]
 ];
 _doors = ["door_1_rot", "door_2_rot", "door_3_rot"];
-["cqb_batiment1", _positions, "O_Soldier_VR_F", cqb_batiment1_object, "1", _doors] call Shin_fnc_cqbInit;
-
+["cqb_batiment1", _positions, "I_C_Soldier_Bandit_7_F", cqb_batiment1_object, "1", _doors] call Shin_fnc_cqbInit;
