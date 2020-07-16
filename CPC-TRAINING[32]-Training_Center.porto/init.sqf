@@ -9,5 +9,3 @@ waitUntil {time > 1};
 execVM "scripts\cqb\initCqb.sqf";
 
 execVM "scripts\halo\initHalo.sqf";
-
-execVM "scripts\snipe\initSnipe.sqf";
